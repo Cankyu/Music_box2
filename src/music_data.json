@@ -1,0 +1,90 @@
+{
+    "Music_library": [
+      {
+        "Title": "Call out my name",
+        "Artist": "The Weekend",
+        "Album": "My dear melancholy ",
+        "Year": 2018,
+        "Genre": "RnB"
+      },
+      {
+        "Title": "Kill Bill",
+        "Artist": "SZA",
+        "Album": "SOS",
+        "Year": 2022,
+        "Genre": "RnB"
+      },
+      {
+        "Title": "Streets",
+        "Artist": "Doja Cat",
+        "Album": "Hot pink",
+        "Year": 2019,
+        "Genre": "RnB"
+      },
+      {
+        "Title": "Heartbreak Anniversary",
+        "Artist": "Giveon",
+        "Album": "When its all said and clone",
+        "Year": 2021,
+        "Genre": "RnB"
+      },
+      {
+        "Title": "Boyshit",
+        "Artist": "Madison Beer",
+        "Album": "Life Support",
+        "Year": 2021,
+        "Genre": "Pop"
+      },
+      {
+        "Title": "Boyfriend",
+        "Artist": "Dove Cameron",
+        "Album": "Single",
+        "Year":  2022,
+        "Genre": "Pop"
+      },
+      {
+        "Title": "bury a friend",
+        "Artist": "Billie Eilish",
+        "Album": "When we all fall asleep where do we go?",
+        "Year": 2019,
+        "Genre": "Pop"
+      },
+      {
+        "Title": "Pink Venom",
+        "Artist": "Blackpink",
+        "Album": "Born Pink",
+        "Year": 2022,
+        "Genre": "Pop"
+      },
+      {
+        "Title": "In the end",
+        "Artist": "Linking Park",
+        "Album": "Hybrid Theory",
+        "Year": 2000,
+        "Genre": "Rock"
+      },
+      {
+        "Title": "The Beginning",
+        "Artist": "One ok Rock",
+        "Album": "Jinsei kakete Boku Wa",
+        "Year": 2013,
+        "Genre": "Rock"
+      },
+      {
+        "Title": "Shoot For Your Heart",
+        "Artist": "Scorpions",
+        "Album": "Rock Believer",
+        "Year": 2022,
+        "Genre": "Rock"
+      },
+      {
+        "Title": "Zitti e buoni",
+        "Artist": "Maneskin",
+        "Album": "Teatro dira",
+        "Year": 2021,
+        "Genre": "Rock"
+      }
+
+
+    ]
+  }

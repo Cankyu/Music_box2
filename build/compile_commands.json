@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/kalka/Documents/Music_box2/build",
+  "command": "C:/cygwin64/bin/g++.exe  @CMakeFiles/Music_Box2.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj -c C:/Users/kalka/Documents/Music_box2/src/music_library.cpp",
+  "file": "C:/Users/kalka/Documents/Music_box2/src/music_library.cpp",
+  "output": "CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj"
+}
+]
