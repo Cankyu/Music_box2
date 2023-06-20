@@ -21,7 +21,7 @@ int main(int argc, char* argv[]) {
     updatedSong.title = "Call out my name";
     updatedSong.artist = "The Weeknd";
     updatedSong.album = "My Dear Melancholy";
-    updatedSong.year = 2000;
+    updatedSong.year = 2010;
     updatedSong.genre = "RnB";
     library.updateSong("Call out my name", updatedSong);
 
