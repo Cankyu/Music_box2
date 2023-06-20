@@ -1,11 +1,18 @@
 {
     "Music_library": [
         {
-            "Album": "My Dear Melancholy",
-            "Artist": "The Weeknd",
+            "Album": "My dear melancholy ",
+            "Artist": "The Weekend",
             "Genre": "RnB",
             "Title": "Call out my name",
-            "Year": 2010
+            "Year": 2018
+        },
+        {
+            "Album": "SOS",
+            "Artist": "SZA",
+            "Genre": "RnB",
+            "Title": "Kill Bill",
+            "Year": 2022
         },
         {
             "Album": "Hot pink",
@@ -78,11 +85,11 @@
             "Year": 2021
         },
         {
-            "Album": "New Album",
-            "Artist": "New Artist",
-            "Genre": "New Genre",
+            "Album": "Oi",
+            "Artist": "Jan",
+            "Genre": "Pop",
             "Title": "Hallo",
-            "Year": 2023
+            "Year": 2090
         }
     ]
 }
