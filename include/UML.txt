@@ -1,0 +1,43 @@
+@startuml
+
+class Song {
+  - title: string
+  - artist: string
+  - album: string
+  - year: int
+  - genre: string
+  + getTitle(): string
+  + getArtist(): string
+  + getAlbum(): string
+  + getYear(): int
+  + getGenre(): string
+  + setTitle(newTitle: string): void
+  + setArtist(newArtist: string): void
+  + setAlbum(newAlbum: string): void
+  + setYear(newYear: int): void
+  + setGenre(newGenre: string): void
+}
+
+class MusicLibrary {
+  - songs: vector<Song>
+  - loadFromJson(filename: string): void
+  - saveToJson(filename: string): void
+  + addSong(song: Song): void
+  + removeSong(title: string): void
+  + searchByTitle(title: string): vector<Song>
+  + searchByArtist(artist: string): vector<Song>
+  + searchByAlbum(album: string): vector<Song>
+  + searchByYear(year: int): vector<Song>
+  + searchByGenre(genre: string): vector<Song>
+  + updateSong(title: string, updatedSong: Song): void
+}
+
+class Main {
+  - musicLibrary: MusicLibrary
+  + main(): int
+}
+
+Song "1" -- "*" MusicLibrary : contains
+Main --> MusicLibrary
+
+@enduml

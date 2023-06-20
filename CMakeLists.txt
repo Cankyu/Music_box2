@@ -5,4 +5,5 @@ set (CMAKE_CXX_STANDARD 11)
 
 include_directories (${CMAKE_CURRENT_SOURCE_DIR}/include)
 
-add_executable (Music_Box2 src/music_library.cpp)
+add_executable (Music_Box2 src/Music_library.cpp src/main.cpp)
+

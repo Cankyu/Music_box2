@@ -1,8 +1,14 @@
 [
 {
   "directory": "C:/Users/kalka/Documents/Music_box2/build",
-  "command": "C:/cygwin64/bin/g++.exe  @CMakeFiles/Music_Box2.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj -c C:/Users/kalka/Documents/Music_box2/src/music_library.cpp",
-  "file": "C:/Users/kalka/Documents/Music_box2/src/music_library.cpp",
-  "output": "CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj"
+  "command": "C:/cygwin64/bin/g++.exe  @CMakeFiles/Music_Box2.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/Music_Box2.dir/src/Music_library.cpp.obj -c C:/Users/kalka/Documents/Music_box2/src/Music_library.cpp",
+  "file": "C:/Users/kalka/Documents/Music_box2/src/Music_library.cpp",
+  "output": "CMakeFiles/Music_Box2.dir/src/Music_library.cpp.obj"
+},
+{
+  "directory": "C:/Users/kalka/Documents/Music_box2/build",
+  "command": "C:/cygwin64/bin/g++.exe  @CMakeFiles/Music_Box2.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/Music_Box2.dir/src/main.cpp.obj -c C:/Users/kalka/Documents/Music_box2/src/main.cpp",
+  "file": "C:/Users/kalka/Documents/Music_box2/src/main.cpp",
+  "output": "CMakeFiles/Music_Box2.dir/src/main.cpp.obj"
 }
 ]

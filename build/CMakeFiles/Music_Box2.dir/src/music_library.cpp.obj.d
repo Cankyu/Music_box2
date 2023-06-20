@@ -1,6 +1,6 @@
-CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj: \
- C:/Users/kalka/Documents/Music_box2/src/music_library.cpp \
- C:/Users/kalka/Documents/Music_box2/src/json.hpp \
+CMakeFiles/Music_Box2.dir/src/Music_library.cpp.obj: \
+ C:/Users/kalka/Documents/Music_box2/src/Music_library.cpp \
+ C:/Users/kalka/Documents/Music_box2/include/json.hpp \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/algorithm \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/utility \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/c++config.h \
@@ -196,7 +196,8 @@ CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj: \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/codecvt.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/locale_facets_nonio.tcc \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/bits/locale_conv.h \
- C:/Users/kalka/Documents/Music_box2/src/Music_library.hpp \
+ C:/Users/kalka/Documents/Music_box2/include/Music_library.hpp \
+ C:/Users/kalka/Documents/Music_box2/include/json.hpp \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/fstream \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/basic_file.h \
  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin/bits/c++io.h \

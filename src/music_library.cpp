@@ -42,7 +42,8 @@ void MusicLibrary::saveToJson(const std::string& filename) {
         jsonData["Music_library"].push_back(songData);
     }
 
-    std::ofstream file(filename);
+    std::ofstream file;   //(filename)
+    file.open(filename);
     if (!file.is_open()) {
         std::cout << "Failed to open JSON file." << std::endl;
         return;

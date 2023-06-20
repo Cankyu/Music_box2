@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Music_Box2.dir/link.d"
-  "CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj"
-  "CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj.d"
+  "CMakeFiles/Music_Box2.dir/src/Music_library.cpp.obj"
+  "CMakeFiles/Music_Box2.dir/src/Music_library.cpp.obj.d"
+  "CMakeFiles/Music_Box2.dir/src/main.cpp.obj"
+  "CMakeFiles/Music_Box2.dir/src/main.cpp.obj.d"
   "Music_Box2.exe"
   "Music_Box2.exe.manifest"
   "Music_Box2.pdb"

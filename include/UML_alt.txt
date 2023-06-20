@@ -1,0 +1,42 @@
++-----------------+
+|    MusicLibrary |
++-----------------+
+| - songs: Song[MAX_SONGS]
+| - num_songs: int
++-----------------+
+| + init_library(): void
+| + add_song(title: const char*, artist: const char*, album: const char*, year: int, genre: const char*): void
+| + delete_song(title: const char*): void
+| + edit_song(title: const char*, new_title: const char*, new_artist: const char*, new_album: const char*,
+|              new_year: int, new_genre: const char*): void
+| + search(title: const char*, artist: const char*, album: const char*, year: int, genre: const char*,
+|          results: MusicLibrary*): void
+| + print_library(): void
++-----------------+
+
++---------+
+|   Song  |
++---------+
+| - title: char[MAX_STR_LEN]
+| - artist: char[MAX_STR_LEN]
+| - album: char[MAX_STR_LEN]
+| - year: int
+| - genre: char[MAX_STR_LEN]
++---------+
+
++------------------+
+|    main()        |
++------------------+
+| - library: MusicLibrary
+| - title: char[MAX_STR_LEN]
+| - artist: char[MAX_STR_LEN]
+| - album: char[MAX_STR_LEN]
+| - year: int
+| - genre: char[MAX_STR_LEN]
++------------------+
+| + add_song_menu(): void
+| + delete_song_menu(): void
+| + edit_song_menu(): void
+| + search_song_menu(): void
+| + print_library_menu(): void
++------------------+

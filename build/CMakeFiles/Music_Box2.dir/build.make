@@ -69,34 +69,51 @@ include CMakeFiles/Music_Box2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Music_Box2.dir/flags.make
 
-CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj: CMakeFiles/Music_Box2.dir/flags.make
-CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj: CMakeFiles/Music_Box2.dir/includes_CXX.rsp
-CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj: C:/Users/kalka/Documents/Music_box2/src/music_library.cpp
-CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj: CMakeFiles/Music_Box2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/kalka/Documents/Music_box2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj -MF CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj.d -o CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj -c C:/Users/kalka/Documents/Music_box2/src/music_library.cpp
+CMakeFiles/Music_Box2.dir/src/Music_library.cpp.obj: CMakeFiles/Music_Box2.dir/flags.make
+CMakeFiles/Music_Box2.dir/src/Music_library.cpp.obj: CMakeFiles/Music_Box2.dir/includes_CXX.rsp
+CMakeFiles/Music_Box2.dir/src/Music_library.cpp.obj: C:/Users/kalka/Documents/Music_box2/src/Music_library.cpp
+CMakeFiles/Music_Box2.dir/src/Music_library.cpp.obj: CMakeFiles/Music_Box2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/kalka/Documents/Music_box2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Music_Box2.dir/src/Music_library.cpp.obj"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Music_Box2.dir/src/Music_library.cpp.obj -MF CMakeFiles/Music_Box2.dir/src/Music_library.cpp.obj.d -o CMakeFiles/Music_Box2.dir/src/Music_library.cpp.obj -c C:/Users/kalka/Documents/Music_box2/src/Music_library.cpp
 
-CMakeFiles/Music_Box2.dir/src/music_library.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Music_Box2.dir/src/music_library.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/kalka/Documents/Music_box2/src/music_library.cpp > CMakeFiles/Music_Box2.dir/src/music_library.cpp.i
+CMakeFiles/Music_Box2.dir/src/Music_library.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Music_Box2.dir/src/Music_library.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/kalka/Documents/Music_box2/src/Music_library.cpp > CMakeFiles/Music_Box2.dir/src/Music_library.cpp.i
 
-CMakeFiles/Music_Box2.dir/src/music_library.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Music_Box2.dir/src/music_library.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/kalka/Documents/Music_box2/src/music_library.cpp -o CMakeFiles/Music_Box2.dir/src/music_library.cpp.s
+CMakeFiles/Music_Box2.dir/src/Music_library.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Music_Box2.dir/src/Music_library.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/kalka/Documents/Music_box2/src/Music_library.cpp -o CMakeFiles/Music_Box2.dir/src/Music_library.cpp.s
+
+CMakeFiles/Music_Box2.dir/src/main.cpp.obj: CMakeFiles/Music_Box2.dir/flags.make
+CMakeFiles/Music_Box2.dir/src/main.cpp.obj: CMakeFiles/Music_Box2.dir/includes_CXX.rsp
+CMakeFiles/Music_Box2.dir/src/main.cpp.obj: C:/Users/kalka/Documents/Music_box2/src/main.cpp
+CMakeFiles/Music_Box2.dir/src/main.cpp.obj: CMakeFiles/Music_Box2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/kalka/Documents/Music_box2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Music_Box2.dir/src/main.cpp.obj"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Music_Box2.dir/src/main.cpp.obj -MF CMakeFiles/Music_Box2.dir/src/main.cpp.obj.d -o CMakeFiles/Music_Box2.dir/src/main.cpp.obj -c C:/Users/kalka/Documents/Music_box2/src/main.cpp
+
+CMakeFiles/Music_Box2.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Music_Box2.dir/src/main.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/kalka/Documents/Music_box2/src/main.cpp > CMakeFiles/Music_Box2.dir/src/main.cpp.i
+
+CMakeFiles/Music_Box2.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Music_Box2.dir/src/main.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/kalka/Documents/Music_box2/src/main.cpp -o CMakeFiles/Music_Box2.dir/src/main.cpp.s
 
 # Object files for target Music_Box2
 Music_Box2_OBJECTS = \
-"CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj"
+"CMakeFiles/Music_Box2.dir/src/Music_library.cpp.obj" \
+"CMakeFiles/Music_Box2.dir/src/main.cpp.obj"
 
 # External object files for target Music_Box2
 Music_Box2_EXTERNAL_OBJECTS =
 
-Music_Box2.exe: CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj
+Music_Box2.exe: CMakeFiles/Music_Box2.dir/src/Music_library.cpp.obj
+Music_Box2.exe: CMakeFiles/Music_Box2.dir/src/main.cpp.obj
 Music_Box2.exe: CMakeFiles/Music_Box2.dir/build.make
 Music_Box2.exe: CMakeFiles/Music_Box2.dir/compiler_depend.ts
 Music_Box2.exe: CMakeFiles/Music_Box2.dir/linkLibs.rsp
 Music_Box2.exe: CMakeFiles/Music_Box2.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/kalka/Documents/Music_box2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Music_Box2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/kalka/Documents/Music_box2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Music_Box2.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/Music_Box2.dir/objects.a
 	C:/cygwin64/bin/ar.exe qc CMakeFiles/Music_Box2.dir/objects.a @CMakeFiles/Music_Box2.dir/objects1.rsp
 	C:/cygwin64/bin/g++.exe -g -Wl,--dependency-file,CMakeFiles/Music_Box2.dir/link.d -Wl,--whole-archive CMakeFiles/Music_Box2.dir/objects.a -Wl,--no-whole-archive -o Music_Box2.exe -Wl,--out-implib,libMusic_Box2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/Music_Box2.dir/linkLibs.rsp

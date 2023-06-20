@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/kalka/Documents/Music_box2/src/music_library.cpp" "CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj" "gcc" "CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj.d"
+  "C:/Users/kalka/Documents/Music_box2/src/main.cpp" "CMakeFiles/Music_Box2.dir/src/main.cpp.obj" "gcc" "CMakeFiles/Music_Box2.dir/src/main.cpp.obj.d"
+  "C:/Users/kalka/Documents/Music_box2/src/Music_library.cpp" "CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj" "gcc" "CMakeFiles/Music_Box2.dir/src/music_library.cpp.obj.d"
   "" "Music_Box2.exe" "gcc" "CMakeFiles/Music_Box2.dir/link.d"
   )
 
