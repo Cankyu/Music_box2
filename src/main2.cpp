@@ -3,7 +3,7 @@
 
 int main(int argc, char* argv[]) {
     if (argc < 2) {
-        std::cout << "Bitte geben Sie den Dateinamen der Musikbibliothek als Argument ein." << std::endl;
+        std::cout << "Please provide the filename of the music library as an argument." << std::endl;
         return 1;
     }
 
@@ -11,12 +11,12 @@ int main(int argc, char* argv[]) {
     library.loadFromJson(argv[1]);
 
     while (true) {
-        std::cout << "Bitte wählen Sie eine Aktion aus:" << std::endl;
-        std::cout << "1. Neuen Song hinzufügen" << std::endl;
-        std::cout << "2. Nach einem Song suchen" << std::endl;
-        std::cout << "3. Einen Song entfernen" << std::endl;
-        std::cout << "4. Einen Song aktualisieren" << std::endl;
-        std::cout << "5. Beenden" << std::endl;
+        std::cout << "Please select your choice:" << std::endl;
+        std::cout << "1. Add a new song" << std::endl;
+        std::cout << "2. Search for a song" << std::endl;
+        std::cout << "3. Remove a song" << std::endl;
+        std::cout << "4. Update a song" << std::endl;
+        std::cout << "5. Quit" << std::endl;
 
         int choice;
         std::cin >> choice;
@@ -29,7 +29,7 @@ int main(int argc, char* argv[]) {
             std::cin.ignore();
             std::getline(std::cin, title);
 
-            std::cout << "Künstler: ";
+            std::cout << "Artist: ";
             std::getline(std::cin, artist);
 
             std::cout << "Album: ";
@@ -38,7 +38,7 @@ int main(int argc, char* argv[]) {
             std::cout << "Genre: ";
             std::getline(std::cin, genre);
 
-            std::cout << "Jahr: ";
+            std::cout << "Year: ";
             std::cin >> year;
 
             Song newSong;
@@ -50,7 +50,7 @@ int main(int argc, char* argv[]) {
 
             library.addSong(newSong);
 
-            std::cout << "Neuer Song wurde zur Bibliothek hinzugefügt." << std::endl;
+            std::cout << "New song has been added to the library." << std::endl;
         }
         else if (choice == 2) {
             std::string searchTitle;
