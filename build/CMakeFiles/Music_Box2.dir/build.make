@@ -84,31 +84,31 @@ CMakeFiles/Music_Box2.dir/src/Music_library.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Music_Box2.dir/src/Music_library.cpp.s"
 	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/kalka/Documents/Music_box2/src/Music_library.cpp -o CMakeFiles/Music_Box2.dir/src/Music_library.cpp.s
 
-CMakeFiles/Music_Box2.dir/src/main.cpp.obj: CMakeFiles/Music_Box2.dir/flags.make
-CMakeFiles/Music_Box2.dir/src/main.cpp.obj: CMakeFiles/Music_Box2.dir/includes_CXX.rsp
-CMakeFiles/Music_Box2.dir/src/main.cpp.obj: C:/Users/kalka/Documents/Music_box2/src/main.cpp
-CMakeFiles/Music_Box2.dir/src/main.cpp.obj: CMakeFiles/Music_Box2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/kalka/Documents/Music_box2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Music_Box2.dir/src/main.cpp.obj"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Music_Box2.dir/src/main.cpp.obj -MF CMakeFiles/Music_Box2.dir/src/main.cpp.obj.d -o CMakeFiles/Music_Box2.dir/src/main.cpp.obj -c C:/Users/kalka/Documents/Music_box2/src/main.cpp
+CMakeFiles/Music_Box2.dir/src/main2.cpp.obj: CMakeFiles/Music_Box2.dir/flags.make
+CMakeFiles/Music_Box2.dir/src/main2.cpp.obj: CMakeFiles/Music_Box2.dir/includes_CXX.rsp
+CMakeFiles/Music_Box2.dir/src/main2.cpp.obj: C:/Users/kalka/Documents/Music_box2/src/main2.cpp
+CMakeFiles/Music_Box2.dir/src/main2.cpp.obj: CMakeFiles/Music_Box2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/kalka/Documents/Music_box2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Music_Box2.dir/src/main2.cpp.obj"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Music_Box2.dir/src/main2.cpp.obj -MF CMakeFiles/Music_Box2.dir/src/main2.cpp.obj.d -o CMakeFiles/Music_Box2.dir/src/main2.cpp.obj -c C:/Users/kalka/Documents/Music_box2/src/main2.cpp
 
-CMakeFiles/Music_Box2.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Music_Box2.dir/src/main.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/kalka/Documents/Music_box2/src/main.cpp > CMakeFiles/Music_Box2.dir/src/main.cpp.i
+CMakeFiles/Music_Box2.dir/src/main2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Music_Box2.dir/src/main2.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/kalka/Documents/Music_box2/src/main2.cpp > CMakeFiles/Music_Box2.dir/src/main2.cpp.i
 
-CMakeFiles/Music_Box2.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Music_Box2.dir/src/main.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/kalka/Documents/Music_box2/src/main.cpp -o CMakeFiles/Music_Box2.dir/src/main.cpp.s
+CMakeFiles/Music_Box2.dir/src/main2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Music_Box2.dir/src/main2.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/kalka/Documents/Music_box2/src/main2.cpp -o CMakeFiles/Music_Box2.dir/src/main2.cpp.s
 
 # Object files for target Music_Box2
 Music_Box2_OBJECTS = \
 "CMakeFiles/Music_Box2.dir/src/Music_library.cpp.obj" \
-"CMakeFiles/Music_Box2.dir/src/main.cpp.obj"
+"CMakeFiles/Music_Box2.dir/src/main2.cpp.obj"
 
 # External object files for target Music_Box2
 Music_Box2_EXTERNAL_OBJECTS =
 
 Music_Box2.exe: CMakeFiles/Music_Box2.dir/src/Music_library.cpp.obj
-Music_Box2.exe: CMakeFiles/Music_Box2.dir/src/main.cpp.obj
+Music_Box2.exe: CMakeFiles/Music_Box2.dir/src/main2.cpp.obj
 Music_Box2.exe: CMakeFiles/Music_Box2.dir/build.make
 Music_Box2.exe: CMakeFiles/Music_Box2.dir/compiler_depend.ts
 Music_Box2.exe: CMakeFiles/Music_Box2.dir/linkLibs.rsp

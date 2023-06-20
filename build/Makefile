@@ -153,29 +153,29 @@ src/Music_library.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Music_Box2.dir/build.make CMakeFiles/Music_Box2.dir/src/Music_library.cpp.s
 .PHONY : src/Music_library.cpp.s
 
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
+src/main2.obj: src/main2.cpp.obj
+.PHONY : src/main2.obj
 
 # target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Music_Box2.dir/build.make CMakeFiles/Music_Box2.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+src/main2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Music_Box2.dir/build.make CMakeFiles/Music_Box2.dir/src/main2.cpp.obj
+.PHONY : src/main2.cpp.obj
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/main2.i: src/main2.cpp.i
+.PHONY : src/main2.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Music_Box2.dir/build.make CMakeFiles/Music_Box2.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/main2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Music_Box2.dir/build.make CMakeFiles/Music_Box2.dir/src/main2.cpp.i
+.PHONY : src/main2.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/main2.s: src/main2.cpp.s
+.PHONY : src/main2.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Music_Box2.dir/build.make CMakeFiles/Music_Box2.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/main2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Music_Box2.dir/build.make CMakeFiles/Music_Box2.dir/src/main2.cpp.s
+.PHONY : src/main2.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... src/Music_library.obj"
 	@echo "... src/Music_library.i"
 	@echo "... src/Music_library.s"
-	@echo "... src/main.obj"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/main2.obj"
+	@echo "... src/main2.i"
+	@echo "... src/main2.s"
 .PHONY : help
 
 
