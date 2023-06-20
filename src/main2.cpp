@@ -25,7 +25,7 @@ int main(int argc, char* argv[]) {
             std::string title, artist, album, genre;
             int year;
 
-            std::cout << "Titel: ";
+            std::cout << "Title: ";
             std::cin.ignore();
             std::getline(std::cin, title);
 
@@ -54,7 +54,7 @@ int main(int argc, char* argv[]) {
         }
         else if (choice == 2) {
             std::string searchTitle;
-            std::cout << "Bitte geben Sie den Titel des Songs ein, nach dem Sie suchen möchten: ";
+            std::cout << "Please enter the title of the song you want to search for: ";
             std::cin.ignore();
             std::getline(std::cin, searchTitle);
 
@@ -62,36 +62,36 @@ int main(int argc, char* argv[]) {
         }
         else if (choice == 3) {
             std::string removeTitle;
-            std::cout << "Bitte geben Sie den Titel des Songs ein, den Sie entfernen möchten: ";
+            std::cout << "Please enter the title of the song that you want to remove: ";
             std::cin.ignore();
             std::getline(std::cin, removeTitle);
 
             library.removeSong(removeTitle);
 
-            std::cout << "Song wurde aus der Bibliothek entfernt." << std::endl;
+            std::cout << "Song has been removed." << std::endl;
         }
         else if (choice == 4) {
             std::string updateTitle;
-            std::cout << "Bitte geben Sie den Titel des Songs ein, den Sie aktualisieren möchten: ";
+            std::cout << "Please enter the title of the song that you want to update: ";
             std::cin.ignore();
             std::getline(std::cin, updateTitle);
 
             std::string newTitle, newArtist, newAlbum, newGenre;
             int newYear;
 
-            std::cout << "Neuer Titel: ";
+            std::cout << "New Title: ";
             std::getline(std::cin, newTitle);
 
-            std::cout << "Neuer Künstler: ";
+            std::cout << "New Artist: ";
             std::getline(std::cin, newArtist);
 
-            std::cout << "Neues Album: ";
+            std::cout << "New Album: ";
             std::getline(std::cin, newAlbum);
 
-            std::cout << "Neues Genre: ";
+            std::cout << "New Genre: ";
             std::getline(std::cin, newGenre);
 
-            std::cout << "Neues Jahr: ";
+            std::cout << "New Year: ";
             std::cin >> newYear;
 
             Song updatedSong;
@@ -103,13 +103,13 @@ int main(int argc, char* argv[]) {
 
             library.updateSong(updateTitle, updatedSong);
 
-            std::cout << "Song wurde aktualisiert." << std::endl;
+            std::cout << "Song has been updated." << std::endl;
         }
         else if (choice == 5) {
             break;
         }
         else {
-            std::cout << "Ungültige Auswahl. Bitte wählen Sie erneut." << std::endl;
+            std::cout << "Invalid choice. Please select again." << std::endl;
         }
     }
 

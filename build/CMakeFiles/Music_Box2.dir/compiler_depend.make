@@ -426,6 +426,7 @@ CMakeFiles/Music_Box2.dir/src/main2.cpp.obj: C:/Users/kalka/Documents/Music_box2
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/iomanip \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/ios \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/iosfwd \
+  /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/iostream \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/istream \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/iterator \
   /usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/limits \
