@@ -1,3 +1,5 @@
+#include "json.hpp"
+using json = nlohmann::json;
 #include "Music_library.hpp"
 #include <fstream>
 #include <iostream>
