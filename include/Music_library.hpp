@@ -12,7 +12,7 @@ struct Song {
     std::string title;
     std::string artist;
     std::string album;
-    int year;
+    int year = 0;
     std::string genre;
 };
 
@@ -26,12 +26,12 @@ public:
     void saveToJson(const std::string& filename);
     void addSong(const Song& song);
     void removeSong(const std::string& title);
-    void searchByTitle(const std::string& title);
-    void searchByArtist(const std::string& artist);
-    void searchByAlbum(const std::string& album);
-    void searchByYear(int year);
-    void searchByGenre(const std::string& genre);
+    bool searchByTitle(const std::string& title);
+    bool searchByArtist(const std::string& artist);
+    bool searchByAlbum(const std::string& album);
+    bool searchByYear(int year);
+    bool searchByGenre(const std::string& genre);
     void updateSong(const std::string& title, const Song& updatedSong);
 };
 
-#endif  // MUSIC_LIBRARY_HPP
+#endif  
