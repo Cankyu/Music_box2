@@ -129,12 +129,26 @@ Music_Box2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Music_Box2.dir/build.make CMakeFiles/Music_Box2.dir/build
 .PHONY : Music_Box2/fast
 
+#=============================================================================
+# Target rules for targets named Music_Box2_Test
+
+# Build rule for target.
+Music_Box2_Test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Music_Box2_Test
+.PHONY : Music_Box2_Test
+
+# fast build rule for target.
+Music_Box2_Test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Music_Box2_Test.dir/build.make CMakeFiles/Music_Box2_Test.dir/build
+.PHONY : Music_Box2_Test/fast
+
 src/Music_library.obj: src/Music_library.cpp.obj
 .PHONY : src/Music_library.obj
 
 # target to build an object file
 src/Music_library.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Music_Box2.dir/build.make CMakeFiles/Music_Box2.dir/src/Music_library.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Music_Box2_Test.dir/build.make CMakeFiles/Music_Box2_Test.dir/src/Music_library.cpp.obj
 .PHONY : src/Music_library.cpp.obj
 
 src/Music_library.i: src/Music_library.cpp.i
@@ -143,6 +157,7 @@ src/Music_library.i: src/Music_library.cpp.i
 # target to preprocess a source file
 src/Music_library.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Music_Box2.dir/build.make CMakeFiles/Music_Box2.dir/src/Music_library.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Music_Box2_Test.dir/build.make CMakeFiles/Music_Box2_Test.dir/src/Music_library.cpp.i
 .PHONY : src/Music_library.cpp.i
 
 src/Music_library.s: src/Music_library.cpp.s
@@ -151,6 +166,7 @@ src/Music_library.s: src/Music_library.cpp.s
 # target to generate assembly for a file
 src/Music_library.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Music_Box2.dir/build.make CMakeFiles/Music_Box2.dir/src/Music_library.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Music_Box2_Test.dir/build.make CMakeFiles/Music_Box2_Test.dir/src/Music_library.cpp.s
 .PHONY : src/Music_library.cpp.s
 
 src/main2.obj: src/main2.cpp.obj
@@ -177,6 +193,30 @@ src/main2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Music_Box2.dir/build.make CMakeFiles/Music_Box2.dir/src/main2.cpp.s
 .PHONY : src/main2.cpp.s
 
+test/test_main.obj: test/test_main.cpp.obj
+.PHONY : test/test_main.obj
+
+# target to build an object file
+test/test_main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Music_Box2_Test.dir/build.make CMakeFiles/Music_Box2_Test.dir/test/test_main.cpp.obj
+.PHONY : test/test_main.cpp.obj
+
+test/test_main.i: test/test_main.cpp.i
+.PHONY : test/test_main.i
+
+# target to preprocess a source file
+test/test_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Music_Box2_Test.dir/build.make CMakeFiles/Music_Box2_Test.dir/test/test_main.cpp.i
+.PHONY : test/test_main.cpp.i
+
+test/test_main.s: test/test_main.cpp.s
+.PHONY : test/test_main.s
+
+# target to generate assembly for a file
+test/test_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Music_Box2_Test.dir/build.make CMakeFiles/Music_Box2_Test.dir/test/test_main.cpp.s
+.PHONY : test/test_main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +226,16 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Music_Box2"
+	@echo "... Music_Box2_Test"
 	@echo "... src/Music_library.obj"
 	@echo "... src/Music_library.i"
 	@echo "... src/Music_library.s"
 	@echo "... src/main2.obj"
 	@echo "... src/main2.i"
 	@echo "... src/main2.s"
+	@echo "... test/test_main.obj"
+	@echo "... test/test_main.i"
+	@echo "... test/test_main.s"
 .PHONY : help
 
 

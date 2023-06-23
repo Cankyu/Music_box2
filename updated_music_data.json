@@ -1,95 +1,11 @@
 {
     "Music_library": [
         {
-            "Album": "My dear melancholy ",
-            "Artist": "The Weekend",
-            "Genre": "RnB",
-            "Title": "Call out my name",
-            "Year": 2018
-        },
-        {
-            "Album": "SOS",
-            "Artist": "SZA",
-            "Genre": "RnB",
-            "Title": "Kill Bill",
-            "Year": 2022
-        },
-        {
-            "Album": "Hot pink",
-            "Artist": "Doja Cat",
-            "Genre": "RnB",
-            "Title": "Streets",
-            "Year": 2019
-        },
-        {
-            "Album": "When its all said and clone",
-            "Artist": "Giveon",
-            "Genre": "RnB",
-            "Title": "Heartbreak Anniversary",
-            "Year": 2021
-        },
-        {
-            "Album": "Life Support",
-            "Artist": "Madison Beer",
+            "Album": "Abc",
+            "Artist": "Luffy",
             "Genre": "Pop",
-            "Title": "Boyshit",
-            "Year": 2021
-        },
-        {
-            "Album": "Single",
-            "Artist": "Dove Cameron",
-            "Genre": "Pop",
-            "Title": "Boyfriend",
-            "Year": 2022
-        },
-        {
-            "Album": "When we all fall asleep where do we go?",
-            "Artist": "Billie Eilish",
-            "Genre": "Pop",
-            "Title": "bury a friend",
-            "Year": 2019
-        },
-        {
-            "Album": "Born Pink",
-            "Artist": "Blackpink",
-            "Genre": "Pop",
-            "Title": "Pink Venom",
-            "Year": 2022
-        },
-        {
-            "Album": "Hybrid Theory",
-            "Artist": "Linking Park",
-            "Genre": "Rock",
-            "Title": "In the end",
-            "Year": 2000
-        },
-        {
-            "Album": "Jinsei kakete Boku Wa",
-            "Artist": "One ok Rock",
-            "Genre": "Rock",
-            "Title": "The Beginning",
-            "Year": 2013
-        },
-        {
-            "Album": "Rock Believer",
-            "Artist": "Scorpions",
-            "Genre": "Rock",
-            "Title": "Shoot For Your Heart",
-            "Year": 2022
-        },
-        {
-            "Album": "Teatro dira",
-            "Artist": "Maneskin",
-            "Genre": "Rock",
-            "Title": "Zitti e buoni",
-            "Year": 2021
-        },
-        {
-            "Album": "Welcome to my world",
-            "Artist": "Aespa",
-            "Genre": "Pop",
-            "Title": "Spicy",
-            "Year": 2023
+            "Title": "Test Song Chopper",
+            "Year": 2025
         }
     ]
 }

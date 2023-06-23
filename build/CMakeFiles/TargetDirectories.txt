@@ -1,3 +1,4 @@
 C:/Users/kalka/Documents/Music_box2/build/CMakeFiles/Music_Box2.dir
+C:/Users/kalka/Documents/Music_box2/build/CMakeFiles/Music_Box2_Test.dir
 C:/Users/kalka/Documents/Music_box2/build/CMakeFiles/edit_cache.dir
 C:/Users/kalka/Documents/Music_box2/build/CMakeFiles/rebuild_cache.dir

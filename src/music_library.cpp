@@ -42,7 +42,7 @@ void MusicLibrary::saveToJson(const std::string& filename) {
         jsonData["Music_library"].push_back(songData);
     }
 
-    std::ofstream file;   //(filename)
+    std::ofstream file;   
     file.open(filename);
     if (!file.is_open()) {
         std::cout << "Failed to open JSON file." << std::endl;
@@ -66,50 +66,82 @@ void MusicLibrary::removeSong(const std::string& title) {
     }
 }
 
-void MusicLibrary::searchByTitle(const std::string& title) {
+bool MusicLibrary::searchByTitle(const std::string& title) {
     for (const auto& song : songs) {
         if (song.title == title) {
-            // Do something with the found song
-            // e.g., print its details
+            
             std::cout << "Title: " << song.title << std::endl;
             std::cout << "Artist: " << song.artist << std::endl;
             std::cout << "Album: " << song.album << std::endl;
             std::cout << "Year: " << song.year << std::endl;
             std::cout << "Genre: " << song.genre << std::endl;
+            
+            return true;
         }
     }
+    return false;
 }
 
-void MusicLibrary::searchByArtist(const std::string& artist) {
+bool MusicLibrary::searchByArtist(const std::string& artist) {
     for (const auto& song : songs) {
         if (song.artist == artist) {
-            // Do something with the found song
+            std::cout << "Title: " << song.title << std::endl;
+            std::cout << "Artist: " << song.artist << std::endl;
+            std::cout << "Album: " << song.album << std::endl;
+            std::cout << "Year: " << song.year << std::endl;
+            std::cout << "Genre: " << song.genre << std::endl;
+
+            return true;
         }
     }
+    return false;
 }
 
-void MusicLibrary::searchByAlbum(const std::string& album) {
+bool MusicLibrary::searchByAlbum(const std::string& album) {
     for (const auto& song : songs) {
         if (song.album == album) {
-            // Do something with the found song
+           std::cout << "Title: " << song.title << std::endl;
+            std::cout << "Artist: " << song.artist << std::endl;
+            std::cout << "Album: " << song.album << std::endl;
+            std::cout << "Year: " << song.year << std::endl;
+            std::cout << "Genre: " << song.genre << std::endl;
+
+            return true;
         }
     }
+    return false;
 }
 
-void MusicLibrary::searchByYear(int year) {
+bool MusicLibrary::searchByYear(int year) {
     for (const auto& song : songs) {
         if (song.year == year) {
-            // Do something with the found song
+            std::cout << "Title: " << song.title << std::endl;
+            std::cout << "Artist: " << song.artist << std::endl;
+            std::cout << "Album: " << song.album << std::endl;
+            std::cout << "Year: " << song.year << std::endl;
+            std::cout << "Genre: " << song.genre << std::endl;
+
+            return true;
         }
     }
+
+    return false;
 }
 
-void MusicLibrary::searchByGenre(const std::string& genre) {
+bool MusicLibrary::searchByGenre(const std::string& genre) {
     for (const auto& song : songs) {
         if (song.genre == genre) {
-            // Do something with the found song
+            std::cout << "Title: " << song.title << std::endl;
+            std::cout << "Artist: " << song.artist << std::endl;
+            std::cout << "Album: " << song.album << std::endl;
+            std::cout << "Year: " << song.year << std::endl;
+            std::cout << "Genre: " << song.genre << std::endl;
+
+            return true;
         }
     }
+
+    return false;
 }
 
 void MusicLibrary::updateSong(const std::string& title, const Song& updatedSong) {
