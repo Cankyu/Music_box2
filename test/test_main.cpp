@@ -80,9 +80,9 @@ TEST_CASE("Saving music library to JSON file", "[saveToJson]") {
   
     MusicLibrary library;
     Song song1;
-    song1.title = "Test Song 1";
+    song1.title = "Test Song Nami";
     Song song2;
-    song2.title = "Test Song 2";
+    song2.title = "Test Song Robin";
     library.addSong(song1);
     library.addSong(song2);
 
@@ -92,7 +92,7 @@ TEST_CASE("Saving music library to JSON file", "[saveToJson]") {
    MusicLibrary JsonLibrary;
    JsonLibrary.loadFromJson("test_music_data2.json");
 
-    REQUIRE(library.searchByTitle("Test Song 1") == true);
-    REQUIRE(library.searchByTitle("Test Song 2") == true);
+    REQUIRE(library.searchByTitle("Test Song Nami") == true);
+    REQUIRE(library.searchByTitle("Test Song Robin") == true);
     
 }
